@@ -1,0 +1,125 @@
+{
+  "total_prompts": 220,
+  "overall_accuracy": 75.9090909090909,
+  "function_breakdown": {
+    "scheduleAppointment": {
+      "total": 36,
+      "correct": 19,
+      "accuracy": 52.77777777777778
+    },
+    "manageFinance": {
+      "total": 33,
+      "correct": 31,
+      "accuracy": 93.93939393939394
+    },
+    "sendMessage": {
+      "total": 27,
+      "correct": 20,
+      "accuracy": 74.07407407407408
+    },
+    "searchWeb": {
+      "total": 40,
+      "correct": 29,
+      "accuracy": 72.5
+    },
+    "playMedia": {
+      "total": 14,
+      "correct": 13,
+      "accuracy": 92.85714285714286
+    },
+    "translateText": {
+      "total": 12,
+      "correct": 9,
+      "accuracy": 75.0
+    },
+    "calculateMath": {
+      "total": 21,
+      "correct": 17,
+      "accuracy": 80.95238095238095
+    },
+    "findDirections": {
+      "total": 11,
+      "correct": 9,
+      "accuracy": 81.81818181818183
+    },
+    "orderFood": {
+      "total": 18,
+      "correct": 14,
+      "accuracy": 77.77777777777779
+    },
+    "weatherCheck": {
+      "total": 8,
+      "correct": 6,
+      "accuracy": 75.0
+    }
+  },
+  "ambiguity_type_breakdown": {
+    "Lexical Ambiguity": {
+      "total": 20,
+      "correct": 11,
+      "accuracy": 55.00000000000001
+    },
+    "Syntactic Ambiguity": {
+      "total": 20,
+      "correct": 17,
+      "accuracy": 85.0
+    },
+    "Scopal Ambiguity": {
+      "total": 20,
+      "correct": 16,
+      "accuracy": 80.0
+    },
+    "Elliptical Ambiguity": {
+      "total": 20,
+      "correct": 19,
+      "accuracy": 95.0
+    },
+    "Collective/Distributive Ambiguity": {
+      "total": 20,
+      "correct": 15,
+      "accuracy": 75.0
+    },
+    "Implicative Ambiguity": {
+      "total": 20,
+      "correct": 17,
+      "accuracy": 85.0
+    },
+    "Presuppositional Ambiguity": {
+      "total": 20,
+      "correct": 16,
+      "accuracy": 80.0
+    },
+    "Idiomatic Ambiguity": {
+      "total": 20,
+      "correct": 12,
+      "accuracy": 60.0
+    },
+    "Coreferential Ambiguity": {
+      "total": 20,
+      "correct": 10,
+      "accuracy": 50.0
+    },
+    "Generic/Non-generic Ambiguity": {
+      "total": 20,
+      "correct": 17,
+      "accuracy": 85.0
+    },
+    "Type/Token Ambiguity": {
+      "total": 19,
+      "correct": 17,
+      "accuracy": 89.47368421052632
+    }
+  },
+  "interesting_examples": {
+    "successes": [
+      "EvaluationResult(prompt='Schedule appointments for clients requesting services', selected_function='scheduleAppointment', expected_function='scheduleAppointment', is_correct=True, timestamp=datetime.datetime(2025, 4, 15, 16, 26, 39, 180801), llm_response={'selected_function': 'scheduleAppointment', 'parameters': {'date': 'date', 'time': 'time', 'purpose': 'purpose'}, 'reasoning': 'This function was chosen because the request is to schedule appointments, which requires date, time, and the purpose of the appointment.'})",
+      "EvaluationResult(prompt='Book restaurant for Friday; Saturday if unavailable', selected_function='scheduleAppointment', expected_function='scheduleAppointment', is_correct=True, timestamp=datetime.datetime(2025, 4, 15, 16, 29, 29, 951511), llm_response={'selected_function': 'scheduleAppointment', 'parameters': {'date': 'Friday; Saturday if unavailable', 'time': None, 'purpose': 'Book restaurant'}, 'reasoning': 'The user request is about scheduling an event which in this case is booking a restaurant. The scheduleAppointment function is the best fit for this task.'})",
+      "EvaluationResult(prompt='I need to clear the air about this misunderstanding', selected_function='sendMessage', expected_function='sendMessage', is_correct=True, timestamp=datetime.datetime(2025, 4, 15, 16, 35, 39, 878779), llm_response={'selected_function': 'sendMessage', 'parameters': {'recipient': '', 'content': 'I need to clear the air about this misunderstanding'}, 'reasoning': \"It seems like you want to communicate your feelings to someone about a misunderstanding. The sendMessage function is the best choice in this context. Please provide the recipient's name.\"})"
+    ],
+    "failures": [
+      "EvaluationResult(prompt='The secretary told the manager she scheduled the meeting', selected_function='None', expected_function='scheduleAppointment', is_correct=False, timestamp=datetime.datetime(2025, 4, 15, 16, 35, 52, 119926), llm_response={'selected_function': 'None', 'parameters': {}, 'reasoning': 'The statement does not seem to be a direct request to perform a task, hence no function can be associated with this statement.'})",
+      "EvaluationResult(prompt='The travel agent told the customer she booked the flight', selected_function='', expected_function='scheduleAppointment', is_correct=False, timestamp=datetime.datetime(2025, 4, 15, 16, 36, 1, 307780), llm_response={'selected_function': '', 'parameters': {}, 'reasoning': \"The given statement does not provide enough information to perform any function call. It's just information about a travel agent booking a flight for a customer.\"})",
+      "EvaluationResult(prompt='After the chef called the server, he placed the order', selected_function='sendMessage', expected_function='orderFood', is_correct=False, timestamp=datetime.datetime(2025, 4, 15, 16, 36, 9, 995712), llm_response={'selected_function': 'sendMessage', 'parameters': {'recipient': 'server', 'content': 'he placed the order'}, 'reasoning': \"The user's message seems to be a third-party observation rather than a direct command for the AI. However, if we consider it as a command, the closest match would be 'sendMessage' as the user seems to be instructing to pass on a message.\"})"
+    ]
+  }
+}

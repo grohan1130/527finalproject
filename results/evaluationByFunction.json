@@ -1,0 +1,67 @@
+{
+  "total_prompts": 220,
+  "overall_accuracy": 75.45454545454545,
+  "function_breakdown": {
+    "scheduleAppointment": {
+      "total": 36,
+      "correct": 20,
+      "accuracy": 55.55555555555556
+    },
+    "manageFinance": {
+      "total": 33,
+      "correct": 31,
+      "accuracy": 93.93939393939394
+    },
+    "sendMessage": {
+      "total": 27,
+      "correct": 18,
+      "accuracy": 66.66666666666666
+    },
+    "searchWeb": {
+      "total": 40,
+      "correct": 30,
+      "accuracy": 75.0
+    },
+    "playMedia": {
+      "total": 14,
+      "correct": 12,
+      "accuracy": 85.71428571428571
+    },
+    "translateText": {
+      "total": 12,
+      "correct": 10,
+      "accuracy": 83.33333333333334
+    },
+    "calculateMath": {
+      "total": 21,
+      "correct": 17,
+      "accuracy": 80.95238095238095
+    },
+    "findDirections": {
+      "total": 11,
+      "correct": 9,
+      "accuracy": 81.81818181818183
+    },
+    "orderFood": {
+      "total": 18,
+      "correct": 13,
+      "accuracy": 72.22222222222221
+    },
+    "weatherCheck": {
+      "total": 8,
+      "correct": 6,
+      "accuracy": 75.0
+    }
+  },
+  "interesting_examples": {
+    "successes": [
+      "EvaluationResult(prompt='Schedule appointments for clients requesting services', selected_function='scheduleAppointment', expected_function='scheduleAppointment', is_correct=True, timestamp=datetime.datetime(2025, 4, 15, 16, 0, 59, 92291), llm_response={'selected_function': 'scheduleAppointment', 'parameters': {'date': 'date', 'time': 'time', 'purpose': 'purpose'}, 'reasoning': \"The user needs to schedule appointments, so the 'scheduleAppointment' function is the most appropriate for this task. The parameters 'date', 'time', and 'purpose' will be needed to specify the details of the appointment.\"})",
+      "EvaluationResult(prompt='Book restaurant for Friday; Saturday if unavailable', selected_function='scheduleAppointment', expected_function='scheduleAppointment', is_correct=True, timestamp=datetime.datetime(2025, 4, 15, 16, 3, 1, 926126), llm_response={'selected_function': 'scheduleAppointment', 'parameters': {'date': 'Friday', 'time': 'not specified', 'purpose': 'restaurant booking'}, 'reasoning': 'The user wants to book a restaurant which is a type of appointment. The scheduleAppointment function is used to schedule appointments, hence it is the most appropriate for this request.'})",
+      "EvaluationResult(prompt='I need to clear the air about this misunderstanding', selected_function='sendMessage', expected_function='sendMessage', is_correct=True, timestamp=datetime.datetime(2025, 4, 15, 16, 8, 42, 191069), llm_response={'selected_function': 'sendMessage', 'parameters': {}, 'reasoning': \"The user's request implies they want to communicate with someone to clear a misunderstanding. The suitable function is 'sendMessage', but additional information like the recipient and content of the message is needed to fully execute the function.\"})"
+    ],
+    "failures": [
+      "EvaluationResult(prompt='The travel agent told the customer she booked the flight', selected_function='None', expected_function='scheduleAppointment', is_correct=False, timestamp=datetime.datetime(2025, 4, 15, 16, 9, 8, 604594), llm_response={'selected_function': 'None', 'parameters': {}, 'reasoning': \"The user's statement doesn't request any specific action that matches with the available functions. Therefore, no function is selected.\"})",
+      "EvaluationResult(prompt='The manager informed the employee his schedule was changed', selected_function='sendMessage', expected_function='scheduleAppointment', is_correct=False, timestamp=datetime.datetime(2025, 4, 15, 16, 9, 28, 271274), llm_response={'selected_function': 'sendMessage', 'parameters': {'recipient': 'employee', 'content': 'Your schedule has been changed.'}, 'reasoning': \"The statement seems to require a message to be sent to the employee informing about the schedule change. So, the 'sendMessage' function is the most appropriate.\"})"
+    ]
+  }
+}

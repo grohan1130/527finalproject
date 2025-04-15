@@ -1,0 +1,221 @@
+prompt,correct interpretation,incorrect interpretation,function(s) to call
+Book me a flight to Paris,Reserve a flight,Read a book about Paris,scheduleAppointment
+Can you check my balance?,View my financial account balance,Test my physical stability,manageFinance
+Help me address this letter,Write recipient information on a letter,Deal with a letter's content,sendMessage
+I need to file these documents,Organize/store documents,Submit documents officially,searchWeb
+Can you run this program?,Execute this software,Physically move with this program,playMedia
+Please note the changes,Write down the changes,Observe the changes,searchWeb
+Help me date this document,Add a timestamp,Take this document on a romantic outing,scheduleAppointment
+I need to draw some money,Withdraw money from an account,Sketch/illustrate money,manageFinance
+Let me play this track,Play this music,Follow/monitor this track,playMedia
+Can you watch my account?,Monitor my account,Visually observe my account,manageFinance
+I need to digest this information,Understand/process information,Physically consume information,searchWeb
+Let me see what stocks are hot,Check which stocks are popular/trending,Check stocks with high temperature,searchWeb
+Can you log my activity?,Record my activity,Create a wooden record of my activity,searchWeb
+I need to draft an email,Write an email,Select an email in a draft pick,sendMessage
+Please post this update,Publish this update online,Mail this update,sendMessage
+Can you translate this passage?,Convert text to another language,Convert a physical corridor,translateText
+I need to record this transaction,Document this financial exchange,Make an audio/video of this transaction,manageFinance
+Help me search for a good bank,Find a financial institution,Find a riverside area,searchWeb
+Can you calculate the interest?,Compute financial gain,Measure level of attention/curiosity,calculateMath
+I need to table this discussion,Postpone this discussion,Bring forward this discussion,scheduleAppointment
+Email clients with updates,Send updates to clients via email,Update email client software,sendMessage
+Find restaurants serving families,Find restaurants that serve family customers,Find families who are serving at restaurants,searchWeb
+Search for driving directions using maps,Use maps to find directions for driving,Find directions about how to use maps while driving,findDirections
+Calculate tips for waiters working overtime,Compute gratuity for waiters who work extra hours,Calculate tips specifically during overtime hours,calculateMath
+Show flights with available seats,Display flights that have seats available,Show which seats are available on flights,searchWeb
+Book tickets for shows with discounts,Reserve discounted tickets for shows,Book tickets for shows that offer discounts,scheduleAppointment
+Translate documents for Spanish clients,Convert documents into Spanish for clients,Translate documents written by Spanish clients,translateText
+Find running apps on my phone,Find applications for jogging on my phone,Find which apps are currently executing on my phone,searchWeb
+Order food for delivery from Italian restaurants,Place a delivery order for Italian food,Order food from restaurants that deliver Italian cuisine,orderFood
+Check accounts with recurring payments,Verify accounts that have recurring payments,Verify recurring payments within accounts,manageFinance
+Play songs from artists in my library,Play songs by artists who are in my library,Play songs from my library by artists,playMedia
+Send messages to contacts with attachments,Send messages with attached files to contacts,Send messages to contacts who have attachments,sendMessage
+Schedule appointments for clients requesting services,Book appointments for clients who are requesting services,Schedule service requests as appointments for clients,scheduleAppointment
+Find stores selling products on sale,Locate stores that have products on sale,Find products being sold by stores that are on sale,searchWeb
+Show routes avoiding traffic jams,Display routes that avoid traffic congestion,Avoid showing routes that have traffic jams,findDirections
+Calculate taxes for employees with benefits,Compute taxes for employees who receive benefits,Calculate the taxes on employee benefits,calculateMath
+Transfer money using apps on my phone,Use phone apps to transfer money,Transfer money to apps on my phone,manageFinance
+Find recipes requiring cooking with wine,Find recipes that need wine as an ingredient,Find recipes that need to be cooked with wine,searchWeb
+Search apartments near stations with parking,Find apartments near stations that have parking,Find apartments with parking that are near stations,searchWeb
+Review transactions from vendors with fees,Examine transactions that include fees from vendors,Examine transactions from vendors who charge fees,manageFinance
+Everyone needs to send an email,Each person needs to send their own email,Everyone needs to send the same email,sendMessage
+Search for a hotel in every city,Find one hotel per city,Find a single hotel chain that exists in every city,searchWeb
+Schedule a meeting with all team members,Book one meeting that includes all team members,Book separate meetings with each team member,scheduleAppointment
+Calculate the cost for each item in the cart,Compute the price of each individual item,Calculate the total cost of all items combined,calculateMath
+Find a gift for every child,Find different gifts for each child,Find one gift type suitable for all children,searchWeb
+Play a song from each playlist,Play one song from each of multiple playlists,Play one song that appears in all playlists,playMedia
+Order a meal for every guest,Order different meals for individual guests,Order the same meal for all guests,orderFood
+Translate a phrase into all supported languages,Translate one phrase into multiple languages,Translate different phrases each into a supported language,translateText
+Show a route to every destination,Display separate routes to each destination,Display one route that connects all destinations,findDirections
+Allocate budget to each department,Distribute different budget amounts to departments,Give all departments the same budget allocation,manageFinance
+Send a notification to all users,Send one notification to the entire user base,Send personalized notifications to each user,sendMessage
+Find a doctor for every specialist need,Find different doctors for each specialty,Find one doctor who handles all specialties,searchWeb
+Check weather for each day of the trip,Check separate weather forecasts for individual trip days,Check one comprehensive weather forecast covering the entire trip,weatherCheck
+Calculate tax for every transaction,Compute tax separately for each transaction,Apply the same tax calculation to all transactions,calculateMath
+Book a table at a restaurant for each occasion,Reserve different restaurant tables for different occasions,Reserve tables at the same restaurant for all occasions,scheduleAppointment
+Create an account for each service,Make separate accounts for different services,Create one account that works for multiple services,manageFinance
+Find a coupon for all purchases,Find one universal coupon applicable to all purchases,Find different coupons for different purchase types,searchWeb
+Schedule a backup for every device,Set up separate backups for individual devices,Set up one backup process for all devices simultaneously,scheduleAppointment
+Order supplies for each office,Place separate supply orders for different offices,Place one centralized order for all offices,orderFood
+Transfer funds to each account,Move money to multiple accounts in separate transactions,Move the same amount to all accounts at once,manageFinance
+Check the weather tomorrow; today too,Check weather for both tomorrow and today,Today also perform a weather check,weatherCheck
+Send email to John; Sarah as well,Send email to both John and Sarah,Sarah should also send an email,sendMessage
+Calculate the first sum; then the second,Calculate both the first and second sums,"Calculate the first sum, then calculate something else second",calculateMath
+Play music in the kitchen; bedroom later,"Play music in kitchen now, in bedroom later",Something else will happen in bedroom later,playMedia
+Book restaurant for Friday; Saturday if unavailable,"Book for Friday, or for Saturday if Friday is unavailable","Book for Friday, and also book for Saturday regardless",scheduleAppointment
+Order pizza for lunch; pasta for dinner,Order pizza now for lunch and arrange pasta delivery for dinner,"Order pizza for lunch now, and we'll order pasta later",orderFood
+Translate this document; the email next,"Translate this document now, then translate the email","Translate this document, then email the translation",translateText
+Show flights to Paris; Rome if cheaper,"Show Paris flights, or Rome flights if Rome is cheaper","Show Paris flights, then show Rome flights regardless",searchWeb
+Pay with credit card; cash if declined,"Use credit card, but use cash if credit is declined","Use credit card, and also use cash",manageFinance
+Search for red shoes; blue if unavailable,"Search for red shoes, or blue ones if red aren't available","Search for red shoes, and also search for blue shoes",searchWeb
+Schedule meeting for 2pm; 3pm if busy,"Schedule for 2pm, or 3pm if 2pm is busy","Schedule for 2pm, and also schedule something at 3pm",scheduleAppointment
+Check account balance; savings too,Check both main account and savings account balances,Check account balance and save that information,manageFinance
+Calculate tax for 2024; 2023 if needed,"Calculate tax for 2024, and for 2023 only if necessary","Calculate 2024 tax, and need 2023 calculation",calculateMath
+Find directions to museum; restaurant afterward,"Find directions to museum, then to restaurant after visiting museum","Find directions to museum, then find a restaurant",findDirections
+Transfer $100 to checking; savings same amount,Transfer $100 to checking and another $100 to savings,Transfer $100 to checking and savings should transfer the same,manageFinance
+Book doctor appointment; dentist next month,"Book doctor now, book dentist for next month","Book doctor now, will book dentist later",scheduleAppointment
+Send report to manager; team if approved,"Send to manager, and to team if manager approves","Send to manager, and the team will send if approved",sendMessage
+Order supplies for office; home if on sale,"Order for office, and for home if items are on sale","Order for office, and home will order if items are on sale",orderFood
+Set alarm for 7am; 6:30 if raining,"Set alarm for 7am, or for 6:30 if weather is rainy","Set alarm for 7am, and it will rain at 6:30",scheduleAppointment
+Ship to home address; office if not available,"Ship to home, or to office if home delivery isn't available","Ship to home, and office should ship if not available",sendMessage
+The department needs to schedule a meeting,The department collectively needs one meeting for everyone,Each person in the department needs to schedule their own meeting,scheduleAppointment
+The family wants to order dinner,The family wants to place one dinner order for everyone,Each family member wants to order their own dinner,orderFood
+The team should check their emails,Each team member should check their individual emails,The team should collectively check shared emails,searchWeb
+The couple wants to book a vacation,The couple wants to book one vacation together,Each person in the couple wants to book their own vacation,scheduleAppointment
+The committee needs to send a response,The committee needs to send one unified response,Each committee member needs to send their own response,sendMessage
+The students must submit their assignments,Each student must submit their own assignment,The students must submit one joint assignment,sendMessage
+The neighbors want to find local services,The neighbors collectively want to find services for the neighborhood,Each neighbor wants to find services for their own home,searchWeb
+The company should calculate their expenses,The company should calculate total expenses as one entity,Each department should calculate their separate expenses,calculateMath
+The band wants to play new songs,The band wants to perform new songs together,Each band member wants to practice new songs individually,playMedia
+The roommates need to pay the rent,The roommates need to make one collective rent payment,Each roommate needs to pay their portion of the rent,manageFinance
+The partners should check their account,The partners should check their shared account,Each partner should check their individual account,manageFinance
+The staff needs to update their profiles,Each staff member needs to update their own profile,The staff needs to update a collective profile,searchWeb
+The board members want to review the proposal,Each board member wants to review the proposal individually,The board wants to review the proposal together in one session,searchWeb
+The club needs to schedule their activities,The club needs one collective schedule for activities,Each club member needs to schedule their own activities,scheduleAppointment
+The organization should translate their documents,The organization should arrange for all documents to be translated centrally,Each department should translate their own documents,translateText
+The household needs to manage their budget,The household needs to manage one family budget,Each household member needs to manage their personal budget,manageFinance
+The band wants to order merchandise,The band wants to place one order for merchandise,Each band member wants to order their own merchandise,orderFood
+The class needs to search for resources,The class needs to collaboratively search for shared resources,Each student needs to find their own resources,searchWeb
+The associates should calculate their commissions,Each associate should calculate their own commission,The associates should jointly calculate their total commissions,calculateMath
+The group needs to find transportation,The group needs to find one shared transportation option,Each group member needs to arrange their own transportation,findDirections
+Try to send this email,Attempt to send this email (implying it might be difficult),Send this email (simple request),sendMessage
+Remember to check the weather,Don't forget to check the weather (implying you might forget),Check the weather (simple request),weatherCheck
+Manage to book a table,Succeed in booking a table despite difficulty (implying challenge),Book a table (simple request),scheduleAppointment
+Happen to find any flights?,"By chance, did you find flights? (implying accidental discovery)",Find flights (deliberate search request),searchWeb
+Attempt to calculate the total,Try to calculate with possibility of failure (implying difficulty),Calculate the total (simple request),calculateMath
+Forget to order lunch,Don't order lunch (implying you should not),Failed to order lunch (implying you should have),orderFood
+Remember to translate this document,Don't forget to translate this document (implying future action),Recall that you already translated this document (past action),translateText
+Try to play this song,Attempt to play this song (implying possible difficulty),Play this song (simple request),playMedia
+Manage to find directions,Succeed in finding directions despite difficulty,Find directions (simple request),findDirections
+Happen to check my account,"By chance, did you check my account? (implying accidental)",Check my account (deliberate request),manageFinance
+Attempt to schedule a meeting,Try to schedule a meeting with possibility of failure,Schedule a meeting (simple request),scheduleAppointment
+Avoid sending duplicate messages,Prevent duplicate messages from being sent,You sent duplicate messages (statement of fact),sendMessage
+Remember to search for that information,Don't forget to search for that information (future action),Recall that you already searched for that information (past action),searchWeb
+Try to pay the bill,Attempt to pay the bill (implying possible difficulty),Pay the bill (simple request),manageFinance
+Manage to find a good price,Succeed in finding a good price despite difficulty,Find a good price (simple request),searchWeb
+Happen to see any available appointments?,"By chance, did you notice any available appointments?",Find available appointments (deliberate search),scheduleAppointment
+Forget to calculate the discount,Don't calculate the discount (implying you should not),Failed to calculate the discount (implying you should have),calculateMath
+Remember to find directions beforehand,Don't forget to find directions before leaving (future action),Recall that you already found directions (past action),findDirections
+Try to place an order,Attempt to place an order (implying possible difficulty),Place an order (simple request),orderFood
+Manage to translate this correctly,Succeed in translating this correctly despite difficulty,Translate this correctly (simple request),translateText
+Stop checking the weather every hour,Cease the frequent weather checking you've been doing,Check the weather hourly (no presupposition),weatherCheck
+Continue sending weekly reports,Keep sending the weekly reports you've been sending,Start sending weekly reports (no prior action presupposed),sendMessage
+Start booking your own appointments,Begin booking appointments yourself (presupposes you haven't been),Book your appointments (no presupposition),scheduleAppointment
+Return to your previous search,Go back to the search you were doing before (presupposes prior search),Search again (no presupposition),searchWeb
+Resume calculating where you left off,Continue the calculation you previously started,Begin calculating (no presupposition of prior calculation),calculateMath
+Finally translate this document,Translate this document that should have been done earlier,Translate this document (no presupposition of delay),translateText
+Stop ordering takeout every day,Cease the daily takeout ordering you've been doing,Order takeout (no presupposition of frequency),orderFood
+Keep playing that playlist,Continue playing the playlist that is currently playing,Play that playlist (no presupposition it's already playing),playMedia
+Begin tracking your expenses,Start tracking expenses (presupposes you haven't been),Track your expenses (no presupposition),manageFinance
+Return to checking your balance weekly,Resume the weekly balance checks you used to do,Check your balance weekly (no presupposition of past habit),manageFinance
+Stop scheduling so many meetings,Reduce the excessive meeting scheduling you've been doing,Schedule meetings (no presupposition about quantity),scheduleAppointment
+Continue searching until you find it,Keep up the search you're already conducting,Search until you find it (no presupposition of ongoing search),searchWeb
+Start saving for retirement,Begin retirement savings (presupposes you aren't saving),Save for retirement (no presupposition),manageFinance
+Go back to sending monthly newsletters,Resume the monthly newsletters you used to send,Send monthly newsletters (no presupposition of past practice),sendMessage
+Finally check your account activity,Check your account activity that should have been checked earlier,Check your account activity (no presupposition of delay),manageFinance
+Stop translating word-by-word,Cease the word-by-word translation method you've been using,Translate (no presupposition about method),translateText
+Keep calculating until you reach zero,Continue the calculation you're already doing until zero,Calculate until you reach zero (no presupposition of ongoing calculation),calculateMath
+Begin ordering supplies in advance,Start ordering supplies ahead of time (presupposes you don't),Order supplies in advance (no presupposition),orderFood
+Return to your previous payment method,Switch back to the payment method you used before,Use a payment method (no presupposition of change),manageFinance
+Finally play the songs I recommended,Play the songs I previously recommended but you haven't played,Play these recommended songs (no presupposition of prior recommendation),playMedia
+Keep me in the loop about the weather,Inform me about weather updates (idiomatic),Physically place me in a circular path regarding weather (literal),weatherCheck
+Drop me a line when you're free,Send me a message when available (idiomatic),Draw a vertical line for me when you're free (literal),sendMessage
+Put this meeting on ice,Postpone this meeting (idiomatic),Physically freeze this meeting (literal),scheduleAppointment
+Break down these numbers for me,Analyze and explain these numbers (idiomatic),Physically dismantle these numbers (literal),calculateMath
+I need to bounce some ideas off you,Discuss ideas with you for feedback (idiomatic),Physically rebound ideas from your body (literal),sendMessage
+Let's touch base about the project,Let's communicate about the project (idiomatic),Let's physically contact a base regarding the project (literal),scheduleAppointment
+Can you dig up information on this topic?,Find or research information (idiomatic),Physically excavate information (literal),searchWeb
+Let me chew over these options,Consider these options carefully (idiomatic),Physically masticate these options (literal),searchWeb
+This fee is eating into my budget,This fee is reducing my budget (idiomatic),This fee is physically consuming my budget (literal),manageFinance
+Can you walk me through this process?,Explain this process step by step (idiomatic),Physically accompany me through this process (literal),searchWeb
+I need to iron out these details,Resolve or fix these details (idiomatic),Physically press these details with an iron (literal),searchWeb
+Let's shed light on this problem,Let's explain or clarify this problem (idiomatic),Let's physically illuminate this problem (literal),searchWeb
+Can you fish out that email for me?,Find and retrieve that email (idiomatic),Physically extract an email from water (literal),searchWeb
+I'll take a rain check on that offer,I'll postpone accepting that offer (idiomatic),I'll accept a voucher due to rain (literal),scheduleAppointment
+Let's pencil in a meeting,Let's tentatively schedule a meeting (idiomatic),Let's write a meeting using a pencil (literal),scheduleAppointment
+Can you run the numbers again?,Can you recalculate (idiomatic),Can you physically move with the numbers (literal),calculateMath
+I need to clear the air about this misunderstanding,I need to resolve this misunderstanding (idiomatic),I need to physically ventilate regarding this misunderstanding (literal),sendMessage
+Let's get this project off the ground,Let's start this project (idiomatic),Let's physically lift this project (literal),scheduleAppointment
+Can you keep tabs on my order?,Can you monitor my order (idiomatic),Can you physically attach tabs to my order (literal),orderFood
+I need to stay on top of these payments,I need to manage these payments well (idiomatic),I need to physically position myself above these payments (literal),manageFinance
+"After John emailed Mike, he checked the weather",John checked the weather after emailing Mike,Mike checked the weather after John emailed him,weatherCheck
+The secretary told the manager she scheduled the meeting,The secretary scheduled the meeting,The manager scheduled the meeting,scheduleAppointment
+"When Sarah messaged Amy, she was ordering dinner",Sarah was ordering dinner while messaging Amy,Amy was ordering dinner when Sarah messaged her,orderFood
+The accountant informed the client his calculation was incorrect,The accountant's calculation was incorrect,The client's calculation was incorrect,calculateMath
+"After the doctor called the patient, she sent the prescription",The doctor sent the prescription after calling,The patient sent something after being called,sendMessage
+The travel agent told the customer she booked the flight,The travel agent booked the flight,The customer booked the flight,scheduleAppointment
+"When Tom texted Mark, he was checking his account",Tom was checking his account while texting,Mark was checking his account when texted,manageFinance
+The translator told the author she misunderstood the text,The translator misunderstood the text,The author misunderstood the text,translateText
+"After the chef called the server, he placed the order",The chef placed the order after calling,The server placed the order after being called,orderFood
+The driver told the passenger she knew the directions,The driver knew the directions,The passenger knew the directions,findDirections
+"When Emma emailed Lisa, she was searching for information",Emma was searching while emailing Lisa,Lisa was searching when Emma emailed her,searchWeb
+The manager informed the employee his schedule was changed,The manager's schedule was changed,The employee's schedule was changed,scheduleAppointment
+"After the teacher contacted the parent, she suggested a meeting",The teacher suggested a meeting,The parent suggested a meeting,scheduleAppointment
+The banker told the investor he calculated the returns,The banker calculated the returns,The investor calculated the returns,calculateMath
+"When David messaged Alex, he was playing music",David was playing music while messaging,Alex was playing music when messaged,playMedia
+The designer told the client she liked the concept,The designer liked the concept,The client liked the concept,sendMessage
+"After the host called the guest, he sent the address",The host sent the address after calling,The guest sent the address after being called,sendMessage
+The coach told the player he needed to improve,The coach needed to improve,The player needed to improve,sendMessage
+"When the agent contacted the landlord, she was scheduling a viewing",The agent was scheduling while contacting,The landlord was scheduling when contacted,scheduleAppointment
+The advisor told the student she should revise the financial plan,The advisor should revise the plan,The student should revise the plan,manageFinance
+Check the weather forecast,Check a specific weather forecast,Check any weather forecast,weatherCheck
+Send emails to clients,Send emails to specific clients,Send emails to clients in general,sendMessage
+Book a flight to New York,Book a specific flight to New York,Book any available flight to New York,scheduleAppointment
+Calculate interest rates,Calculate specific interest rates,Calculate interest rates in general,calculateMath
+Order food for delivery,Order specific food items for delivery,Order any food for delivery,orderFood
+Search for hotels,Search for specific hotels,Search for hotels in general,searchWeb
+Pay credit card bills,Pay specific credit card bills,Pay credit card bills in general,manageFinance
+Schedule appointments,Schedule specific appointments,Schedule any appointments,scheduleAppointment
+Find directions to restaurants,Find directions to specific restaurants,Find directions to restaurants in general,findDirections
+Translate French documents,Translate specific French documents,Translate French documents in general,translateText
+Play music during dinner,Play specific music during dinner,Play any music during dinner,playMedia
+Check account balances,Check specific account balances,Check account balances in general,manageFinance
+Send messages to team members,Send messages to specific team members,Send messages to team members in general,sendMessage
+Calculate tax deductions,Calculate specific tax deductions,Calculate tax deductions in general,calculateMath
+Book tickets for events,Book tickets for specific events,Book tickets for any events,scheduleAppointment
+Search for information about cars,Search for information about specific cars,Search for information about cars in general,searchWeb
+Order supplies for the office,Order specific supplies for the office,Order any needed office supplies,orderFood
+Find flights to Europe,Find specific flights to Europe,Find any flights to Europe,searchWeb
+Transfer money between accounts,Transfer money between specific accounts,Transfer money between any accounts,manageFinance
+Play podcasts while driving,Play specific podcasts while driving,Play any podcasts while driving,playMedia
+Check three weather apps,Check three specific weather app instances,Check three different types of weather apps,weatherCheck
+Send five emails,Send five individual email messages,Send five different types of emails,sendMessage
+Book two restaurant reservations,Book two specific restaurant reservations,Book two different types of restaurant reservations,scheduleAppointment
+Calculate four different expenses,Calculate four specific expense items,Calculate four categories of expenses,calculateMath
+Order three meals,Order three specific meal items,Order three types of meals,orderFood
+Search for four hotels,Search for four specific hotel properties,Search for four categories of hotels,searchWeb
+Pay six bills,Pay six specific bill instances,Pay six different types of bills,manageFinance
+Schedule three meetings,Schedule three specific meeting instances,Schedule three different types of meetings,scheduleAppointment
+Find five locations,Find five specific location points,Find five types of locations,findDirections
+Translate seven phrases,Translate seven specific phrase instances,Translate seven types of phrases,translateText
+Play four songs,Play four specific song tracks,Play four different types of songs,playMedia
+Check two accounts,Check two specific account instances,Check two types of accounts,manageFinance
+Send three messages,Send three specific message instances,Send three types of messages,sendMessage
+Calculate five statistics,Calculate five specific statistical values,Calculate five types of statistics,calculateMath
+Book three tickets,Book three specific ticket instances,Book three types of tickets,scheduleAppointment
+Search for eight products,Search for eight specific product items,Search for eight categories of products,searchWeb
+Order four supplies,Order four specific supply items,Order four types of supplies,orderFood
+Find three routes,Find three specific route paths,Find three types of routes,findDirections
+Transfer two payments,Transfer two specific payment instances,Transfer two types of payments,manageFinance
+Play five media files,Play five specific media file instances,Play five types of media files,playMedia
